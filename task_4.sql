@@ -1,5 +1,5 @@
 -- task_4.sql
--- Print full description of the table 'books' in the database
+-- Print full description of the table 'Books' in the database
 
 SELECT 
     COLUMN_NAME AS 'Column',
@@ -12,4 +12,4 @@ FROM
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
     TABLE_SCHEMA = 'alx_book_store'
-    AND TABLE_NAME = 'books';
+    AND TABLE_NAME = 'Books';
